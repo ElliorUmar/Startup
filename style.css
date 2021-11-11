@@ -1,0 +1,176 @@
+.top_menu{
+    text-align: center;
+
+
+}
+.top_menu a{
+    text-decoration: none;
+    color: black;
+    padding: 20px 40px;
+    display: inline-block;
+
+}
+.header{
+    background-image: url("images/polygons.png");
+    color: white;
+    text-align: center;
+    padding: 200px;
+    max-width: 1200px;
+    margin: auto;
+    box-sizing: border-box;
+}
+@media (max-width: 767px) {
+ .header{
+     padding: 200px 15px;
+ }
+}
+
+.header a{
+    text-decoration: none;
+    color:  black;
+    background: white;
+    border-radius: 11%;
+    padding: 10px 20px;
+    display: inline-block;
+}
+body{
+    margin: 0 auto;
+}
+.about{
+    max-width: 1200px;
+    margin: auto;
+}
+@media (max-width: 375px){
+    .about{
+        padding: 15px;
+    }
+}
+.about img{
+    float: right;
+    margin: 10px 70px;
+    max-height: 200px;
+}
+
+h2{
+    text-align: center;
+}
+.about p{
+    text-align: justify;
+}
+.card{
+    display: inline-block;
+box-shadow: lightgray 3px 3px 10px;
+    width: 350px;
+    padding: 15px;
+    margin: 10px;
+    border: lightgray solid 1px;
+}
+@media (max-width: 375px) {
+    .card{
+        width: 280px;
+    }
+}
+.card>img{
+    width: 100%;
+}
+.occupation{opacity: 0.5}
+.card>a{
+    color: white;
+    background-color:#005C77 ;
+    padding: 10px;
+    display: block;
+    text-align: center;
+    border-radius: 11px;
+    text-decoration: none;
+
+}
+#plans{
+    background-color:#5E5E5E;
+    text-align: center;
+    width: 100%;
+    padding: 10px 10px;
+    box-sizing: border-box;
+
+}
+
+#plans>ul{
+    background-color: white;
+    display: inline-block;
+    list-style-type: none;
+    padding: 0;
+    width: 400px;
+    text-align: center;
+    margin: 10px;
+    vertical-align: middle;
+}
+@media (max-width: 468px){
+#plans>ul{
+    width: 280px;
+}
+}
+#plans>ul>li:nth-child(1){
+    background-color: black;
+    color: white;
+    padding: 20px;
+}
+#plans>ul>li{
+    padding: 15px;
+    border-bottom: gray 1px solid;
+}
+#team{
+    text-align: center;
+}
+#pro{
+background-color:#005C77!important;
+    padding: 30px!important;
+
+}
+#plans a {
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    border-radius: 11px;
+    padding: 5px 20px;
+}
+.city {
+
+    background-image: url("images/address.png");
+}
+.iconized{
+    background-repeat: no-repeat;
+    background-position: center left;
+    padding: 9px 35px;
+
+}
+.phone{
+background-image: url("images/phone.png");
+}
+.email{
+    background-image: url("images/mail.png");
+}
+#contacts{
+    padding: 0 70px;
+}
+.contacts_p{
+    text-align: center;
+}
+#contacts input {
+    display: block;
+    width: 100%;
+    margin: 10px;
+}
+#contacts input[type=submit]{
+    color: white;
+    background-color: black;
+    width: fit-content;
+    margin: auto;
+    padding: 5px;
+    border-radius: 11px;
+}
+
+*{
+    box-sizing: border-box;
+}
+#checker{
+
+}
